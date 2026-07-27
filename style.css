@@ -26,9 +26,9 @@ html,body{margin:0;height:100%;overflow:hidden;font-family:Arial}
 }
 .animal{
     position:absolute;
-    top:20%;   
-    left:50%;
-    transform:translate(-20%, -50%);
+    top:40%;   
+    left:100%;
+    transform:translate(-40%, -100%);
     width:300px;
     opacity:0;transition:1s;
 }
