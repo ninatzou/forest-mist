@@ -1,0 +1,28 @@
+
+html,body{margin:0;height:100%;overflow:hidden;font-family:Arial}
+#scene{position:relative;width:100vw;height:100vh}
+#background{position:absolute;inset:0;background:url("assets/forest.png") center/cover no-repeat,linear-gradient(#95d88c,#4f8b52,#17311d)}
+#fog,#particles{position:absolute;inset:0;width:100%;height:100%}
+#fog{touch-action:none}
+#particles{pointer-events:none}
+#ui{position:absolute;top:10px;width:100%;text-align:center;color:#fff;text-shadow:0 2px 5px #000;z-index:5}
+#progress{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%);
+    width:320px;
+    height:12px;
+    background:#ffffff55;
+    border-radius:6px;
+    overflow:hidden;
+    z-index:10;
+}
+
+#bar{
+    width:0%;
+    height:100%;
+    background:#ffd54f;
+}
+.animal{position:absolute;left:10%;top:10%;width:320px;opacity:0;transition:1s}
+#donate{position:absolute;left:50%;bottom:30px;transform:translateX(-50%);padding:14px 24px;border:none;border-radius:999px;background:#ffd54f;font-weight:bold;opacity:0}
