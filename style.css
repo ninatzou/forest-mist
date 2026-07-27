@@ -30,6 +30,6 @@ html,body{margin:0;height:100%;overflow:hidden;font-family:Arial}
     top:20%;
     transform:translateX(-50%);
     width:300px;
-    opacity:-1;
+    opacity:0;transition:1s;
 }
 #donate{position:absolute;left:50%;bottom:30px;transform:translateX(-50%);padding:14px 24px;border:none;border-radius:999px;background:#ffd54f;font-weight:bold;opacity:0}
