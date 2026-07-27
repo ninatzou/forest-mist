@@ -24,5 +24,5 @@ html,body{margin:0;height:100%;overflow:hidden;font-family:Arial}
     height:100%;
     background:#ffd54f;
 }
-.animal{position:absolute;left:10%;top:10%;width:320px;opacity:0;transition:1s}
+.animal{position:absolute;left:5%;top:5%;width:300px;opacity:0;transition:1s}
 #donate{position:absolute;left:50%;bottom:30px;transform:translateX(-50%);padding:14px 24px;border:none;border-radius:999px;background:#ffd54f;font-weight:bold;opacity:0}
